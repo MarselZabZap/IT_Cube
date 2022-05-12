@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Приют "Полярка"</title>
+    <link rel="stylesheet" href="infa.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <div>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="./img/be.png" alt="logo">
+          </a>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Домой</a></li>
+            <li><a href="roli.html">Кошки</a></li>
+            <li><a href="roli2.html">Собаки</a></li>
+            <li><a href="information.html">Чем помочь</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </header>
+
+
+    <section class="money">
+      <div class="help_money">
+        <h2>Поддержите приют</h2>
+        <p>На строительство вольеров, ремонт зданий и благоустройство территории требуются немалые средства.</p>
+        <p>Каждый перечисленный рубль можно увидеть в наших отчётах об использовании благотворительных взносов. Отчёты мы регулярно публикуем в соцсетях, а также направляем на проверку в Министерство юстиции.</p>
+        <div class="thanks">
+          <b><p>Каждый перевод делает счастливыми как минимум одну собаку и одну кошку. Спасибо!</p></b>
+          <img src="img/heart.png" alt="">
+        </div>
+        <div class="cost">
+          <input type="text">
+          <a href="#">Пожертвовать</a>
+        </div>
+      </div>
+    </section>
+    
+    <br>
+    <br>
+    <div id="need"><h2 style="color: white;">На всегда нужны...</h2></div>
+    <section class="one">
+      <div class="med">
+        <ul><b>Лекарства</b>
+          <div>
+            <li>Блохнет</li>
+            <li>Стронгхолд</li>
+            <li>Гельмимакс</li>
+            <li>Празител</li>
+            <li>Резиновые перчатки</li>
+          </div>
+        </ul>
+      </div>
+      <div class="med">
+        <ul><b>Еда</b>
+          <div>
+            <li>Сухие корма для кошек и собак (кроме "Каждый день" и "Аго")</li>
+            <li>Крупы (гречневая, пшеничная, овсяная, ячневая, рис)</li>
+            <li>Субпродукты, фарш, обрезки, мясо</li>
+          </div>
+        </ul>
+      </div>
+      <div class="med">
+        <ul><b>Средства для ухода</b>
+          <div>
+            <li>Наполнитель древесный для кошек</li>
+            <li>Моющие и чистящие средства</li>
+            <li>Миски эмалированные</li>
+            <li>Лопаты, грабли, вёдра</li>
+            <li>Одеяла и подушки синтепоновые</li>
+            <li>Губки всех видов</li>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <section class="two">
+      <div class="help">
+        <img src="img/icon.png" alt="">
+        <p> Если Вы хотите подарить приюту лекарства, еду или средства ухода, просим позвонить нам, чтобы договориться о передаче: +7(905)757-41-66<p>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+
+      let navLinks = document.getElementById('navLinks');
+      function showMenu() {
+        navLinks.style.right = '0';
+      }
+      function hideMenu() {
+        navLinks.style.right = '-200px';
+      }
+
+    </script>
+
+    <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+  </body>
+</html>

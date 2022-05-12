@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Приют "Полярка"</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="./img/be.png" alt="logo">
+          </a>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Домой</a></li>
+            <li><a href="roli.html">Кошки</a></li>
+            <li><a href="roli2.html">Собаки</a></li>
+            <li><a href="information.html">Чем помочь</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Приют для животных<br>«Полярка»</h1>
+        <p>Сотни милых животных, готовых делиться любовью, ищут добрых хозяев</p>
+        <a href="#bot" class="hero-btn"> <b>Выбрать</b></a>
+      </div>
+    </header>
+<!-- курсы -->
+
+<section class="course">
+  <h1>Только с нашей помощью</h1>
+  <div class="row">
+    <div class="course-col">
+      <h3>Ежедневная трагедия...</h3>
+      <p>Ежедненво по вине безответсвенности человека на улице оказываются сотни невинных животных, 80% из них раньше были домашними!</p>
+    </div>
+    <div class="course-col">
+      <h3>Раненные судьбой...</h3>
+      <p>В силу сложившихся обстоятельств, животным приходиться выживать в непригоденыях для них условиях города, что приводит к агрессии по отношению к человеку.</p>
+    </div>
+    <div class="course-col">
+      <h3>Переносчики заболеваний</h3>
+      <p>Оказавшись на улице, бедное животное становиться уязвимой целью для различного рода заболеваний, также опасных и для человека</p>
+    </div>
+  </div>
+</section>
+
+<!-- конец курсов -->
+
+
+
+<!-- campus -->
+<section class="campus">
+  <a name="bot"></a>
+  <h1>Всё в наших совместных усилиях</h1>
+  <p>На нашем сайте вы сможете подобрать питомца для себя или оказать им помощь</p>
+  <div class="row">
+    <div class="campus-col">
+      <img src="./img/z2.jpg" alt="London">
+      <div class="layer">
+        <a href="roli.html"><h3>Кошки</h3></a>
+      </div>
+    </div>
+    <div class="campus-col">
+      <img src="./img/z4.jpg" alt="NewYork">
+      <div class="layer">
+        <a href="roli2.html"><h3>Собаки</h3></a>
+      </div>
+    </div>
+    <div class="campus-col">
+      <img src="./img/z1.jpg" alt="washington">
+      <div class="layer">
+        <a href="information.html"><h3>Волонтерство</h3></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end campus -->
+
+<!-- факультет -->
+
+<footer>
+<h4>Связь с нами</h4>
+<p>+7(905)757-41-66</p>
+<div class="icons">
+  <i class="fab fa-youtube"></i>
+  <i class="fab fa-tiktok"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-telegram"></i>
+</div>
+
+</footer>
+
+
+
+    <script>
+
+      let navLinks = document.getElementById('navLinks');
+      function showMenu() {
+        navLinks.style.right = '0';
+      }
+      function hideMenu() {
+        navLinks.style.right = '-200px';
+      }
+
+    </script>
+
+    <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+  </body>
+</html>

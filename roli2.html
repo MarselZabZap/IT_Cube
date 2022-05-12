@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Приют "Полярка"</title>
+    <link rel="stylesheet" href="rol2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="./img/be.png" alt="logo">
+          </a>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Домой</a></li>
+            <li><a href="roli.html">Кошки</a></li>
+            <li><a href="roli2.html">Собаки
+            </a></li>
+            <li><a href="information.html">Чем помочь</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+    </header>
+    
+
+    <h1>Выберите себе любимца</h1>
+
+        <section class="campus">
+
+          <div class="row">
+            <div class="campus-col">
+              <img src="./img/p11.jpg" alt="Adam">
+              <div class="layer">
+                <h3>Люси</h3>
+              </div>
+            </div>
+            <div class="campus-col">
+              <img src="./img/p22.jpg" alt="Barbara">
+              <div class="layer">
+                <h3>Арчи</h3>
+              </div>
+            </div>
+            <div class="campus-col">
+              <img src="./img/p33.jpg" alt="Betelgeuse">
+              <div class="layer">
+                <h3>Бобик</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="campus-col">
+              <img src="./img/p44.jpg" alt="Lydia">
+              <div class="layer">
+                <h3>Мухтар</h3>
+              </div>
+            </div>
+            <div class="campus-col">
+              <img src="./img/p55.jpg" alt="Charles">
+              <div class="layer">
+                <h3>Жанна</h3>
+              </div>
+            </div>
+            <div class="campus-col">
+              <img src="./img/p66.jpg" alt="Delia">
+              <div class="layer">
+                <h3>Зорро</h3>
+              </div>
+            </div>
+          </div>
+        
+        
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+
+      let navLinks = document.getElementById('navLinks');
+      function showMenu() {
+        navLinks.style.right = '0';
+      }
+      function hideMenu() {
+        navLinks.style.right = '-200px';
+      }
+
+    </script>
+
+    <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+  </body>
+</html>
